@@ -1,5 +1,6 @@
 body {
     font-family: Inter;
+    background: #FFF;
 }
 
 .page-header{
@@ -218,6 +219,7 @@ body {
     gap: 4px;
     border-radius: 7px;
     background: #000;
+    cursor: pointer;
 }
 
 .search-button__text{
@@ -249,3 +251,64 @@ body {
     text-decoration-line: underline;
     cursor: pointer;
 }
+
+.page-category{
+    margin-left: 44px;
+    margin-top: 70px;
+}
+
+.category__name{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.category__count{
+    color: #494949;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.page__page-category{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.page-category__pet-image{
+    display: flex;
+    gap: 65px;
+}
+
+.pet__pet-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.page-category__pet{
+    display: flex;
+    gap: 65px;
+}
+
+.pet__pet-name{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pet__pet-count{
+    color: #494949;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
