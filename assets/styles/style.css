@@ -1,0 +1,77 @@
+body {
+    font-family: Inter;
+}
+
+.page-header{
+    display: inline-flex;
+    align-items: center;
+    gap: 282px;
+}
+
+.page__page-header{
+    margin-top: 34px;
+    margin-left: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.page-header__name{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.page-header__title{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page-header__navbar{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.page-header__navbar-item{
+    color: #494949;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page-header__user-menu{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.user-menu__filter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter__text{
+    color: #494949;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sign-in__button{
+    display: flex;
+    padding: 7.5px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7px;
+    border: 0.25px solid #CBCBCB;
+    background: rgba(217, 217, 217, 0.00);
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
